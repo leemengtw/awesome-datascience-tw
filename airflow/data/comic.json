@@ -1,0 +1,50 @@
+{
+  "1152": {
+    "name": "海賊王",
+    "previous_chapter_num": 911,
+    "latest_chapter_num": 911,
+    "new_chapter_available": false
+  },
+  "1221": {
+    "name": "進擊的巨人",
+    "previous_chapter_num": 107,
+    "latest_chapter_num": 107,
+    "new_chapter_available": true
+  },
+  "4485": {
+    "name": "西遊",
+    "previous_chapter_num": 152,
+    "latest_chapter_num": 152,
+    "new_chapter_available": false
+  },
+  "1121": {
+    "name": "浪人劍客",
+    "previous_chapter_num": 327,
+    "latest_chapter_num": 327,
+    "new_chapter_available": false
+  },
+  "4228": {
+    "name": "鬼畜島",
+    "previous_chapter_num": 44,
+    "latest_chapter_num": 44,
+    "new_chapter_available": true
+  },
+  "1122": {
+    "name": "王者天下",
+    "previous_chapter_num": 565,
+    "latest_chapter_num": 565,
+    "new_chapter_available": true
+  },
+  "5802": {
+    "name": "Monkey Peak",
+    "previous_chapter_num": 25,
+    "latest_chapter_num": 25,
+    "new_chapter_available": true
+  },
+  "5401": {
+    "name": "人面",
+    "previous_chapter_num": 67,
+    "latest_chapter_num": 67,
+    "new_chapter_available": false
+  }
+}
