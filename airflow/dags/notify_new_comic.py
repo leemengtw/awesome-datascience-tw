@@ -7,7 +7,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator, BranchPythonOperator
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.slack_operator import SlackAPIPostOperator
-
+from airflow.operators.latest_only_operator import LatestOnlyOperator
 
 default_args = {
     'owner': 'Meng Lee',
@@ -18,7 +18,9 @@ default_args = {
     'email_on_retry': False,
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
-    'catchup': False
+    'catchup': False,
+    'depends_on_past': False,
+    'max_active_runs': 1
 }
 
 comic_page_template = 'https://www.cartoonmad.com/comic/{}.html'
@@ -126,6 +128,8 @@ def get_message_text():
 with DAG('notify_new_comic', default_args=default_args) as dag:
 
     # define tasks
+    latest_only = LatestOnlyOperator(task_id='latest_only')
+
     get_read_history = PythonOperator(
         task_id='get_read_history',
         python_callable=process_metadata,
@@ -169,6 +173,7 @@ with DAG('notify_new_comic', default_args=default_args) as dag:
     do_nothing = DummyOperator(task_id='no_do_nothing')
 
     # define workflow
+    latest_only >> get_read_history
     get_read_history >> check_comic_info >> branching
     branching >> generate_notification
     branching >> do_nothing
