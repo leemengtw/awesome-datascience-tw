@@ -5,17 +5,17 @@
 Dublino, Irlanda (photo by [Giammarco Boscaro](https://unsplash.com/photos/zeH-ljawHtg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText))
 
 ## 背景
-現今學習資料科學的人們常會遇到 3 個問題：
-- 中文的資料科學資源短缺 :cry:
-    - 儘管網路有很多很棒的英文文章，但是英文能力不足。
+現今學習資料科學的人們常會遇到的 3 個問題：
+- 中文資料科學資源短缺 :cry:
+    - 儘管網路已經有很多英文文章，但是英文能力不足
 - 資訊爆炸的時代 :boom:
-    - 就算英文夠好，相關的英文文章過多，不知道該從何看起。
+    - 就算英文夠好，相關的英文文章過多不知道該從何看起
 - 學的跟業界期待的不同 :disappointed_relieved:
 
 此 repo 希望能透過以下方式，來（一部份地）解決這些問題：
 - 全中文內容並搭配英文術語
     - 讓讀者在最短時間內掌握核心概念的同時，記住英文專業術語以與非中文母語的人合作
-- 提供高品質的英文文章的中文摘要
+- 提供相關英文文章的中文重點摘要
     - 以讓讀者快速掌握文章內容以及資料科學的趨勢
 - 業界資料科學家的實際工作經驗分享
 
@@ -48,8 +48,23 @@ Dublino, Irlanda (photo by [Giammarco Boscaro](https://unsplash.com/photos/zeH-l
 - 貢獻知識及內容
 
 ## 主題列表
+以下是目前計畫整理的主題：
 
 | 主題名稱 | 簡單描述 |
 | :---: | :--- |
 | Airflow | 工作流程管理系統（Workflow Management System），常用於資料工程、ETL |
+| Airflow | 工作流程管理系統（Workflow Management System），常用於資料工程、ETL |
+| Docker |  |
+| Presto |  |
+| Bash |  |
+| Git |  |
+| Anaconda |  |
+| Hive |  |
+| Jupyter |  |
+| Selenium |  |
+| Superset |  |
+| Python |  |
+| R |  |
 
+
+## 貢獻
