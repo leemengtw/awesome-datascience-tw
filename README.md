@@ -23,23 +23,22 @@ Dublino, Irlanda (photo by [Giammarco Boscaro](https://unsplash.com/photos/zeH-l
 基本上各個跟資料科學相關的主題 / 工具都會有一個自己的文件夾以方便管理，如 [Airflow](airflow)。
 
 而雖然每個主題因為本身性質的不同，內容可能有所差異，大致上都會包含以下內容：
-- 「為什麼（Why）」:grey_question:
+- :grey_question:「為什麼（Why）」
     - 為何要使用此工具？
     - 它能幫我們解決什麼問題？
     - 這部分將會利用部落格文章說明並提供連結
-- 「什麼（What）」 :notebook:
+- :notebook:「什麼（What）」
     - 基本概念理解
     - 常見術語解釋
-- 「如何做（How）」:wrench:
+- :wrench:「如何做（How）」
     - 要怎麼開始使用，快速入門
     - 一些實用提示（Tips）
-- 其他資源 :book:
+- :book:其他資源 
     - 推薦閱讀的文章列表（與中文摘要、翻譯）
     - 相關技術連結
 
 ## 如何活用
 對某主題有興趣但不熟悉的讀者，可以翻閱該主題的內容以快速掌握重要概念；經驗豐富的資料科學家則可以將此 repo 當作快速的參考資料，或者貢獻你的知識
-- 老手：貢獻、快速參考
 
 
 ## Q & A
