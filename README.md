@@ -1,4 +1,4 @@
-# 實用資料科學
+# Awesome Datascience TW
 作為一個「資料科學家的圖書館」，這裡嘗試整理所有跟資料科學（Data Science）相關的工具、操作指南、有用的學習資源以及推薦閱讀。希望讓對資料科學有興趣的人，能用最有效率的方式，最好的來源，來學習實際能在業界應用的各種技能 :nerd_face:
 
 ![Dublino, Irlanda.](images/cover.jpg)
