@@ -1,7 +1,5 @@
 # 實用資料科學
-這裡整理所有跟資料科學（Data Science）相關的工具、操作指南、有用的學習資源以及推薦閱讀。
-
-作為一個「資料科學家的圖書館」，此 repo 希望能讓有志學習資料科學的人，用最有效率的方式、從最好的來源，學習實際能在業界使用的各種技能。
+作為一個「資料科學家的圖書館」，這裡整理所有跟資料科學（Data Science）相關的工具、操作指南、有用的學習資源以及推薦閱讀。希望能讓有志學習資料科學的人，用最有效率的方式，從最好的來源，學習實際能在業界使用的各種技能。
 
 ![Dublino, Irlanda.](images/cover.jpg)
 Dublino, Irlanda (photo by [Giammarco Boscaro](https://unsplash.com/photos/zeH-ljawHtg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText))
