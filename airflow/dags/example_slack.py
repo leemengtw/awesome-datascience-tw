@@ -8,7 +8,7 @@ from airflow.operators.slack_operator import SlackAPIPostOperator
 default_args = {
     'owner': 'Meng Lee',
     'start_date': datetime(2018, 7, 17, 0, 0),
-    'schedule_interval': '@yearly',
+    'schedule_interval': '@daily',
     'email': [],
     'email_on_failure': False,
     'email_on_retry': False,
@@ -34,7 +34,7 @@ with DAG('example_slack', default_args=default_args) as dag:
         task_id='send_message',
         token=get_token(),
         channel='#your-channel-name',
-        text="Message from Airflow!",
+        text="[{{ ds }}] Message from Airflow!",
         icon_url='http://airbnb.io/img/projects/airflow3.png'
     )
 
